@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const dob = document.getElementById('dob').value;
 
 
-     if (!isValidAge(dobInput)) {
+     if (!isValidAge(dob)) {
       event.preventDefault(); 
       alert('You must be at least 18 years old to submit this form.');
     }
