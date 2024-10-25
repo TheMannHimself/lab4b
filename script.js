@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const email = document.getElementById('email').value;
     const dob = document.getElementById('dob').value;
   
-    if (email && phone && dob) {
+    if (email && name && dob) {
       alert(`Form Submitted! \nName: ${name}\nEmail: ${email}\nDate of Birth: ${dob}`);
     } else {
       event.preventDefault(); 
